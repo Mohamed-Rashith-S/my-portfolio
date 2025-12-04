@@ -154,18 +154,18 @@
 
                 <div class="group bg-black/40 p-6 rounded-xl border border-white/5 hover:border-cyber-accent transition duration-300">
                     <div class="flex justify-between items-start mb-4">
-                        <h3 class="text-xl font-bold group-hover:text-cyber-accent transition">Vulnerability Assessment Reports</h3>
+                        <h3 class="text-xl font-bold group-hover:text-cyber-accent transition">Sentinel - Breach Monitor</h3>
                         <div class="flex gap-2">
-                            <span class="text-xs bg-purple-900/30 text-purple-300 px-2 py-1 rounded">Burp Suite</span>
-                            <span class="text-xs bg-green-900/30 text-green-300 px-2 py-1 rounded">Reporting</span>
+                            <span class="text-xs bg-purple-900/30 text-purple-300 px-2 py-1 rounded">Python</span>
+                            <span class="text-xs bg-green-900/30 text-green-300 px-2 py-1 rounded">Threat Intel</span>
                         </div>
                     </div>
                     <p class="text-gray-400 text-sm mb-6">
-                        A compilation of anonymized vulnerability reports and remediation strategies developed during my tenure at Cyber Heals, focusing on OWASP Top 10 vulnerabilities.
+                        A threat intelligence tool designed to monitor dark web data dumps. It detects compromised credentials and provides real-time alerts to mitigate potential identity theft.
                     </p>
-                    <span class="text-sm text-gray-500 italic">
-                        <i class="fas fa-lock"></i> Confidential / Upon Request
-                    </span>
+                    <a href="https://github.com/Mohamed-Rashith-S/sentinel-project" target="_blank" class="text-sm font-bold text-white hover:text-cyber-accent">
+                        <i class="fab fa-github"></i> View Project
+                    </a>
                 </div>
 
             </div>
@@ -174,33 +174,46 @@
 
     <section id="walkthroughs" class="py-20">
         <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-12 border-l-4 border-cyber-accent pl-4">Walkthroughs & Write-ups</h2>
-            <div class="space-y-6">
+            <h2 class="text-3xl font-bold mb-12 border-l-4 border-cyber-accent pl-4">Walkthroughs & Findings</h2>
+            
+            <div class="grid gap-6 md:grid-cols-2">
                 
-                <a href="#" class="block p-6 bg-cyber-gray rounded-xl hover:bg-black/40 transition border border-white/5 hover:border-cyber-accent group">
-                    <div class="flex items-center gap-4 text-xs text-cyber-accent mb-2">
-                        <span>Active Directory</span>
+                <a href="https://medium.com/@rashith6384/how-i-discovered-a-critical-authorization-flaw-in-a-learning-platform-0cf398a7514d" target="_blank" class="block p-6 bg-cyber-gray rounded-xl hover:bg-black/40 transition border border-white/5 hover:border-cyber-accent group h-full">
+                    <div class="flex items-center gap-4 text-xs text-cyber-accent mb-3">
+                        <span class="bg-blue-900/30 px-2 py-1 rounded">Bug Bounty</span>
                         <span>•</span>
-                        <span>Nov 2025</span>
+                        <span>Medium</span>
                     </div>
-                    <h3 class="text-xl font-bold mb-2 group-hover:text-blue-400 transition">Example: Solving the "Forest" Machine on HackTheBox</h3>
+                    <h3 class="text-xl font-bold mb-3 group-hover:text-blue-400 transition leading-snug">
+                        How I Discovered a Critical Authorization Flaw in a Learning Platform
+                    </h3>
                     <p class="text-gray-400 text-sm">
-                        A detailed walkthrough on how I enumerated the domain, roasted kerberos tickets, and escalated privileges to Domain Admin.
+                        A deep dive into finding an IDOR vulnerability that allowed unauthorized access to sensitive user data.
                     </p>
+                    <div class="mt-4 text-sm text-white font-semibold group-hover:underline">Read Article <i class="fas fa-arrow-right ml-1"></i></div>
                 </a>
 
-                <a href="#" class="block p-6 bg-cyber-gray rounded-xl hover:bg-black/40 transition border border-white/5 hover:border-cyber-accent group">
-                    <div class="flex items-center gap-4 text-xs text-cyber-accent mb-2">
-                        <span>Wireless Security</span>
+                <a href="https://medium.com/@rashith6384/from-png-to-xss-how-i-tricked-a-web-app-into-executing-my-payload-c66f5a990195" target="_blank" class="block p-6 bg-cyber-gray rounded-xl hover:bg-black/40 transition border border-white/5 hover:border-cyber-accent group h-full">
+                    <div class="flex items-center gap-4 text-xs text-cyber-accent mb-3">
+                        <span class="bg-purple-900/30 px-2 py-1 rounded">Web Security</span>
                         <span>•</span>
-                        <span>Dec 2025</span>
+                        <span>Medium</span>
                     </div>
-                    <h3 class="text-xl font-bold mb-2 group-hover:text-blue-400 transition">Example: Setting up an Evil Twin with ESP32</h3>
+                    <h3 class="text-xl font-bold mb-3 group-hover:text-blue-400 transition leading-snug">
+                        From PNG to XSS: How I Tricked a Web App Into Executing My Payload
+                    </h3>
                     <p class="text-gray-400 text-sm">
-                        A technical guide on the hardware and software setup used in my final year project.
+                        Bypassing file upload restrictions to achieve Cross-Site Scripting via malicious image files.
                     </p>
+                    <div class="mt-4 text-sm text-white font-semibold group-hover:underline">Read Article <i class="fas fa-arrow-right ml-1"></i></div>
                 </a>
 
+            </div>
+
+            <div class="mt-8 text-center">
+                <a href="https://medium.com/@rashith6384" target="_blank" class="inline-flex items-center gap-2 text-gray-400 hover:text-white transition">
+                    View all my articles on Medium <i class="fas fa-external-link-alt text-xs"></i>
+                </a>
             </div>
         </div>
     </section>
